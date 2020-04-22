@@ -60,7 +60,8 @@
     NestedModules = @('DSCClassResources\GroupPolicy\GroupPolicy.psd1',
                       'DSCClassResources\GPLink\GPLink.psd1',
                       'DSCClassResources\GPPermission\GPPermission.psd1',
-                      'DSCClassResources\GPRegistryValue\GPRegistryValue.psd1')
+                      'DSCClassResources\GPRegistryValue\GPRegistryValue.psd1',
+                      'DSCClassResources\GPImport\GPImport.psd1')
     
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
     FunctionsToExport = @()
@@ -75,7 +76,7 @@
     AliasesToExport = @()
     
     # DSC resources to export from this module
-    DscResourcesToExport = @('GroupPolicy','GPLink','GPPermission','GPRegistryValue')
+    DscResourcesToExport = @('GroupPolicy','GPLink','GPPermission','GPRegistryValue','GPImport')
     
     # List of all modules packaged with this module
     # ModuleList = @()
